@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aptruc.MainPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="https://static.vecteezy.com/system/resources/previews/000/442/033/original/vector-hamburger-icon.jpg"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+
+
+            <Button
+                x:Name="CounterBtn"
+                Text="entrer"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" 
+                BackgroundColor="DarkRed"/>
+
+            <Image
+                Source="https://toppng.com/public/uploads/preview/burger-vector-png-image-black-and-white-download-burger-11562863804fhwuffqm2f.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="50"
+                HorizontalOptions="End"
+                VerticalOptions="End"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

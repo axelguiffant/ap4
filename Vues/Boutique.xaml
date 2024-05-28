@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aptruc.Vues.Boutique"
+             Title="Boutique">
+	<Grid>
+		<ListBox x:Name="ProductListBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Height="300">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel>
+						<TextBlock Text="{Binding Nom}" FontWeight="Bold"/>
+						<TextBlock Text="{Binding Prix}"/>
+						<TextBlock Text="{Binding Description}"/>
+
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</Grid>
+</ContentPage>
